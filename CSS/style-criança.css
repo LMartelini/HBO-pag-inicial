@@ -1,0 +1,126 @@
+/* formatação geral */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  /* degradê do background */
+  .caixa {
+    height: 625px;
+    background: linear-gradient(
+      to bottom right,
+      black,
+      black,
+      black,
+      rgb(80, 25, 151),
+      rgb(80, 25, 151)
+    );
+  }
+  
+  /* criando container */
+  .container {
+    margin: 0 auto;
+    width: 700px;
+    height: 580px;
+  }
+  
+  /* imagem logo */
+  .imagem-logo {
+    margin-left: 270px;
+    position: absolute;
+    bottom: 510px;
+  }
+  
+  /* início main */
+  main h1 {
+    color: #fff;
+    font-size: 40px;
+    margin-top: 125px;
+    margin-left: 255px;
+  }
+  
+  /* inserindo flex p/ alinhar itens em coluna */
+  .itens {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .p1-itens {
+    color: #fff;
+    margin-left: 120px;
+    margin-top: 20px;
+    font-size: 17px;
+  }
+  
+  .itens h2 {
+    color: #fff;
+    font-size: 25px;
+    margin-left: 180px;
+    margin-top: 35px;
+  }
+  
+  /* inputs para PIN */
+  .inputs {
+    display: flex;
+    gap: 20px;
+    margin-left: 180px;
+    margin-top: 10px;
+  }
+
+  input {
+    font-size: 30px;
+  }
+  
+  input.senha {
+    height: 70px;
+    width: 60px;
+    color: #fff;
+    background: transparent;
+  }
+  
+  /* FORMATANDO BOTÕES */
+  .botoes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    margin-top: 50px;
+  }
+
+  
+  /* formatação link botão cancelar */
+   .botao-cancelar:hover {
+    background-color: black;
+    border: 2px solid rgb(53, 3, 117);
+  }
+  
+  /* botão salvar*/
+  
+  .botao-salvar, .botao-cancelar {
+    padding: 12px 40px;
+    background: rgba(82, 73, 73, 0.4);
+    font-size: 16px;
+    border-radius: 5px;
+  
+    color: #fff;
+    font-weight: 700;
+    border: none;
+  }
+
+  .p2-itens {
+    color: #fff;
+    font-size: 15px;
+    margin-top: 40px;
+  }
+
+  
+
+
+
+  
