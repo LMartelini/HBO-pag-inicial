@@ -1,0 +1,133 @@
+/* formatação geral */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* início header */
+header {
+  content: "";
+  background-image: url("../Imagens/fundo\ -header.jpg");
+  background-size: cover;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.85;
+  padding: 0 30px;
+  height: 1500px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* criando container p limitar largura */
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* inicio nav */
+nav {
+  height: 80px;
+  margin-left: 25px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil-1 {
+  height: 45px;
+  width: 45px;
+  background: rgb(14, 6, 24);
+  border-radius: 50%;
+  border: 2px solid rgb(104, 28, 148);
+}
+
+.g1,
+.g2 {
+  display: flex;
+  gap: 40px;
+  text-align: center;
+  align-items: center;
+}
+
+nav a {
+  color: rgb(202, 206, 209);
+  font-size: 17px;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+.perfil-1 p {
+  margin-top: 10px;
+}
+/*fim nav */
+
+.botoes {
+  margin-top: 300px;
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+button {
+  border: none;
+}
+
+.botao-1 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: black;
+  border: 2px solid white;
+  font-size: 20px;
+}
+
+.botao-1:hover {
+  border: 2px solid rgb(104, 28, 148);
+  background-color: rgb(32, 28, 28);
+}
+
+button cursor:hover {
+  background: rgb(46, 43, 43, 0.5);
+  border: 2px solid rgb(104, 28, 148);
+}
+
+.botao-1 p {
+  color: #fff;
+  font-size: 12px;
+}
+
+.botao-1 span {
+  color: #fff;
+}
+
+.botao-2 {
+  margin-left: 15px;
+  width: 135px;
+  height: 50px;
+  border-radius: 5px;
+  background: rgb(46, 43, 43);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.botao-2:hover {
+  border: 2px solid rgb(104, 28, 148);
+  background-color: rgb(0, 0, 0);
+}
+
+/* fim header */
+
+/*início main */
