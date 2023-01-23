@@ -12,16 +12,11 @@ a {
 
 /* início header */
 header {
-  content: "";
-  background-image: url("../Imagens/fundo\ -header.jpg");
+  background-image: url("../Imagens/fundo-header.jpg");
   background-size: cover;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
   opacity: 0.85;
   padding: 0 30px;
-  height: 1500px;
+  height: 800px;
   display: flex;
   flex-direction: column;
 }
@@ -30,7 +25,6 @@ header {
 .container {
   display: flex;
   flex-direction: column;
-  height: 100vh;
 }
 
 /* inicio nav */
@@ -130,4 +124,44 @@ button cursor:hover {
 
 /* fim header */
 
-/*início main */
+/*início main - formatação geral */
+
+main {
+  background: linear-gradient(
+    to bottom right,
+    black,
+    black,
+    black,
+    rgb(80, 25, 151),
+    rgb(80, 25, 151)
+  );
+}
+
+main p {
+  color: #fff;
+  margin-left: 25px;
+  font-size: 18px;
+  margin-top: 50px;
+}
+
+ /*formatação geral das imagens */
+.imagens {
+  display: flex;
+  flex-direction: column;
+}
+
+.imagens img:hover {
+  border: 3px solid rgb(72, 3, 112);
+  border-radius: 2px;
+}
+
+/* formatação linhas das imagens */
+.primeira-linha, .segunda-linha, .terceira-linha {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+  margin-left: 25px;
+}
+
+
+
